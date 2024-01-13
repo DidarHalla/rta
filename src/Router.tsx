@@ -1,6 +1,6 @@
 import { createBrowserRouter, Navigate } from "react-router-dom";
 import App from "./App";
-import Test1 from "./test1";
+import Test1 from "./Test1.tsx";
 
 export const Routes = {
   home: "/",
