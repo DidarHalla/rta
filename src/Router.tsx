@@ -5,18 +5,10 @@ import Test1 from "./Test1.tsx";
 export const Routes = {
   home: "/testSide",
   test1: "/test1",
-  // registration: "/registration",
-  // generate: "/generate",
 };
 
 export const createRouter = createBrowserRouter([
   {
-    // element: (
-    //   <div className="wrapper">
-    //     <App />
-    //     <Outlet />
-    //   </div>
-    // ),
     children: [
       {
         path: Routes.home,
@@ -30,14 +22,6 @@ export const createRouter = createBrowserRouter([
         path: Routes.test1,
         element: <Test1 />,
       },
-      // {
-      //   path: Routes.registration,
-      //   element: <RegistrationForm />,
-      // },
-      // {
-      //   path: Routes.generate,
-      //   element: <GenerateProductListing />,
-      // },
     ],
   },
   {
