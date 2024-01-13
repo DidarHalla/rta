@@ -3,7 +3,7 @@ import App from "./App";
 import Test1 from "./Test1.tsx";
 
 export const Routes = {
-  home: "/",
+  home: "/testSide",
   test1: "/test1",
   // registration: "/registration",
   // generate: "/generate",
